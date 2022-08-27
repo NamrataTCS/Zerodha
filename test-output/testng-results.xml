@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[browser open]]>
+    </line>
+    <line>
+      <![CDATA[verify userid]]>
+    </line>
+    <line>
+      <![CDATA[DPG458]]>
+    </line>
+    <line>
+      <![CDATA[logout the application]]>
+    </line>
+    <line>
+      <![CDATA[browser closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-24T00:02:06 IST" name="Default suite" finished-at="2022-08-24T00:02:11 IST" duration-ms="5315">
+    <groups>
+    </groups>
+    <test started-at="2022-08-24T00:02:06 IST" name="Default test" finished-at="2022-08-24T00:02:11 IST" duration-ms="5315">
+      <class name="Method_Returntype.TestClass_kite">
+        <test-method is-config="true" signature="browseropen()[pri:0, instance:Method_Returntype.TestClass_kite@7d4f9aae]" started-at="2022-08-24T00:02:06 IST" name="browseropen" finished-at="2022-08-24T00:02:09 IST" duration-ms="3424" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browseropen -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Method_Returntype.TestClass_kite@7d4f9aae]" started-at="2022-08-24T00:02:09 IST" name="login" finished-at="2022-08-24T00:02:09 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyUID()[pri:0, instance:Method_Returntype.TestClass_kite@7d4f9aae]" started-at="2022-08-24T00:02:09 IST" name="verifyUID" finished-at="2022-08-24T00:02:10 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verify userid]]>
+            </line>
+            <line>
+              <![CDATA[DPG458]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUID -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:Method_Returntype.TestClass_kite@7d4f9aae]" started-at="2022-08-24T00:02:10 IST" name="logoutApp" finished-at="2022-08-24T00:02:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Method_Returntype.TestClass_kite@7d4f9aae]" started-at="2022-08-24T00:02:10 IST" name="closebrowser" finished-at="2022-08-24T00:02:11 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Method_Returntype.TestClass_kite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
